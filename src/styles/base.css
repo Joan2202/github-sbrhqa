@@ -126,20 +126,22 @@ img.logo:hover {
 .list-of-plants {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
- gap: 2em;
+ gap: 1em;
 }
 
 .plant-preview {
- border: 1px solid #889;
+ border: 2.75px solid #889;
  padding: 0.5em;
 }
 
 .plant-picture {
   width: 100%;
-  height: 200px;
+  height: 100px;
   background-color: #a5a79d;
 }
 
-.description ¨{
-
+.description {
+ display: block;
+ font-size: 0.7em;
+ padding-top: 0.5em;
 }
